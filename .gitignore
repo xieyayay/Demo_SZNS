@@ -1,0 +1,93 @@
+# 编译生成的文件
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+
+# IDE 配置
+.vs/
+.idea/
+*.sln
+*.sln.DotSettings.user
+*.suo
+*.user
+*.userprefs
+*.vcxproj*
+*.filters
+*.db
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+sourcemaps/
+*.cache
+*.tmp
+
+# 日志和崩溃报告
+*.log
+*.dmp
+*.minidump
+*.utrace
+Saved/Logs/
+Saved/Crashes/
+Saved/Autosaves/
+Saved/Backup/
+Saved/Config/Windows/
+Saved/Config/Linux/
+Saved/Config/Mac/
+Saved/Config/Android/
+Saved/Config/IOS/
+
+# 内容浏览器缩略图
+AssetRegistryCache/
+ThumbnailCache/
+
+# 链接器产物
+*.ilk
+*.obj
+*.exp
+*.pdb
+*.lib
+*.res
+*.tlb
+*.tlh
+*.idb
+*.ipdb
+*.iobj
+*.ipch
+
+# Mac 特定
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows 特定
+Thumbs.db
+desktop.ini
+
+# 打包输出目录
+Release/
+Debug/
+BuildOutput/
+
+# 插件中的忽略
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# ========== 以下为 Config 文件夹补充忽略 ==========
+# 用户本地配置（不要提交）
+Config/User*.ini
+Config/*UserSettings.ini
+Config/GameUserSettings.ini
+Config/CrashReportClient*.ini
+Config/EditorPerProjectUserSettings.ini
