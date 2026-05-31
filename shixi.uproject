@@ -21,6 +21,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "xieyayaya",
+			"Enabled": true
 		}
 	]
 }
